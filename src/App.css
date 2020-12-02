@@ -1,0 +1,110 @@
+body {
+  background-color: #121212;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.signArea {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+}
+
+.signLogo {
+  width: 20px;
+  height: 20px;
+}
+
+.signUp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signIn {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkboxLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.checkBox {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #d8d8d8;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.rememberCheck {
+  user-select: none;
+  color:#d8d8d8;
+  font-size: 13px;
+  width: 260px;
+  line-height: 19px;
+  font-style: normal;
+}
+
+.checkInput {
+  appearance: none;
+}
+
+.checkInput:checked + .checkBox {
+  background-color: #90caf8;
+}
+
+
+.smallBtnSignIn {
+  display: flex;
+  justify-content: flex-end;
+  margin: 6px;
+  font-size: 12px;
+}
+
+.signInBtn {
+  text-decoration: none;
+  color: #90caf8;
+  justify-content: flex-end;
+}
+
+footer {
+  color: gray;
+  font-size: 12px;
+  margin-top: 35px;
+}
+
+
+.smallBtnSignUp {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.signUpBtn {
+  text-decoration: none;
+  color: #90caf8;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+
+.helpLine {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px;
+}
+
+
+
+
+
+
